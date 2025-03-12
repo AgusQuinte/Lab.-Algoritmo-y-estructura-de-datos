@@ -1,4 +1,4 @@
-nombre = "Agustin Quintela"
+nombre = "agustin quintela"
 saludo = " Hola, como estas? Mi nombre es "
 
-print(f"{saludo}{nombre}")
+print(f"{saludo}{nombre.title()}")
