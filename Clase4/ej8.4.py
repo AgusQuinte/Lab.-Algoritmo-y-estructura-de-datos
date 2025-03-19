@@ -13,7 +13,7 @@ personas.insert(0, "Michael")
 personas.insert(2, "Gabriela")
 
 
-print("La nueva lsitas de invitados: ")
+print("La nueva lista de invitados: ")
 print(f"\nMensaje para {personas[0]}: {mensaje[0]}") 
 print(f"\nMensaje para {personas[1]}: {mensaje[1]}")
 print(f"\nMensaje para {personas[2]}: {mensaje[2]}")
