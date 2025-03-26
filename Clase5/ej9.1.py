@@ -1,0 +1,15 @@
+paises = ["españa", "eeuu","francia","brasil","inglaterra"]
+
+print("original \n", paises, sep=(" ") )
+print("sorted \n",*sorted(paises))
+print("original \n",*paises, sep=(" "))
+print("sorted inverso \n",*sorted(paises, reverse=True))
+print("original \n",*paises, sep=(" "))
+paises.reverse()
+print("reverse \n",*paises, sep=(" "))
+paises.reverse()
+print("reverse inverso \n",*paises, sep=(" "))
+paises.sort()
+print("sort \n",*paises, sep=(" "))
+paises.sort(reverse=True)
+print("sort inverso \n",*paises, sep=(" "))
