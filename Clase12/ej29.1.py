@@ -10,5 +10,8 @@ class Restaurante:
         print("¡El restaurante está abierto!")
 
 class PuestoDeHelados(Restaurante):
-
-    def mostrar_sabores():
+    sabores = ["Vainilla", "Chocolate", "Frambuesas"]
+    def mostrar_sabores(self):
+        print(f"El restaurante {self.nombre} tiene los siguientes sabores: {self.sabores}")
+helado = PuestoDeHelados("La Casa de la Chocolate", "Chocolate")
+helado.mostrar_sabores()
